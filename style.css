@@ -1,0 +1,133 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Header Styles */
+.custom_nav-container {
+  background-color: #2c3e50;
+  padding: 10px 0;
+}
+
+.custom_nav-container .navbar-brand {
+  color: #ecf0f1;
+  font-weight: bold;
+}
+
+.custom_nav-container .navbar-nav .nav-link {
+  color: #ecf0f1 !important;
+}
+
+.custom_nav-container .navbar-toggler-icon {
+  background-color: #ecf0f1;
+}
+
+/* Hero Section Styles */
+.hero_area {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-section {
+  background: url("images/hero-bg.jpg") center/cover no-repeat;
+  color: white;
+  text-align: center;
+  padding: 150px 0;
+}
+
+.hero-section h1 {
+  font-size: 3em;
+  color: #ecf0f1;
+}
+
+.hero-section a.btn {
+  background-color: #3498db;
+  color: #ecf0f1;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  text-decoration: none;
+}
+
+/* Menu Section Styles */
+.menu-section {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+.menu-item {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.menu-item img {
+  border-radius: 10px;
+  width: 100%;
+  height: 200px; /* Set a fixed height for consistency */
+  object-fit: cover; /* Maintain aspect ratio and cover container */
+}
+
+.menu-item h4 {
+  margin-top: 15px;
+  font-size: 1.5em;
+  color: #333;
+}
+
+.menu-item p {
+  color: #666;
+}
+
+.menu-item p.text-primary {
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+/* About Us Section Styles */
+.about-section {
+  padding: 50px 0;
+}
+
+/* Contact Section Styles */
+.contact-section {
+  background-color: #3498db; /* Update to a different color for better visibility */
+  padding: 50px 0;
+}
+
+.contact-section form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Footer Styles */
+.footer_section {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  padding: 20px 0;
+}
+
+.footer_section h4 {
+  color: #ecf0f1;
+}
+
+.footer_contact a {
+  color: #ecf0f1;
+}
+
+.footer_detail .footer-logo {
+  color: #ecf0f1;
+  font-weight: bold;
+}
+
+.footer_social a {
+  color: #ecf0f1;
+  margin-right: 10px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .hero-section {
+    padding: 100px 0;
+  }
+}
